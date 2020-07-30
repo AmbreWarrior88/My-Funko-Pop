@@ -1,4 +1,4 @@
-import React from 'react';
+import theLordOfTheRing from '../TheLordOfTheRing.json';
 
 function createData(univers, name, edition, type, number, buy, price, newPrice) {
     return { univers, name, edition, type, number, buy, price, newPrice };
@@ -7,7 +7,12 @@ function createData(univers, name, edition, type, number, buy, price, newPrice) 
 const rows = [
 
     // The Lord Of The Ring
-    createData('Le Seigneur des Anneaux', '', '', '', '', '', 0, 0),
+
+    createData(theLordOfTheRing.univers, '', '', '', '', '', 0, 0),
+
+    createData('', theLordOfTheRing.map(e => e.name), theLordOfTheRing.map(e => e.edition), theLordOfTheRing.map(e => e.type), theLordOfTheRing.map(e => e.number), theLordOfTheRing.map(e => e.buy), theLordOfTheRing.map(e => e.price), theLordOfTheRing.map(e => e.newPrice)),
+
+
 
     createData('', 'Galadriel', 'Tempted', 'Pop', '#634', '13/03/20', 14.95, 14.95),
 
@@ -37,6 +42,8 @@ const rows = [
     createData('', 'Fumseck', '', 'Pop', '#87', '17/07/19', 15.10, 11.95),
 
     createData('', 'Buck', 'Flocké', 'Pop', '#104', '31/01/20', 17.99, 34.99),
+
+    createData('', 'Sibylle Trelawney', '', 'Pop', '#86', '26/07/20', 16.90, 11.95),
 
     // Disney
     createData('Disney', '', '', '', '', '', 0, 0),

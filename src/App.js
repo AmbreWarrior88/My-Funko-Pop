@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import SimpleTable from './Home'
+import SimpleTable from './containers/Home'
 
 function App() {
   return (
