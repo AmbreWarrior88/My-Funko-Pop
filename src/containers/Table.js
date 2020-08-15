@@ -39,7 +39,7 @@ const SimpleTable = () => {
             <Table className={classes.table} aria-label="simple table">
                 <TableHead>
                     <StyledTableRow>
-                        <StyledTableCell>Univers</StyledTableCell>
+                        <StyledTableCell>Universe</StyledTableCell>
                         <StyledTableCell align="left">Name</StyledTableCell>
                         <StyledTableCell align="left">Edition</StyledTableCell>
                         <StyledTableCell align="center">Type</StyledTableCell>
@@ -51,9 +51,9 @@ const SimpleTable = () => {
                 </TableHead>
                 <TableBody>
                     {rows.map((row) => (
-                        <StyledTableRow key={row.univers}>
+                        <StyledTableRow key={row.universe}>
                             <StyledTableCell component="th" scope="row">
-                                {row.univers}
+                                {row.universe}
                             </StyledTableCell>
                             <StyledTableCell align="left">{row.name}</StyledTableCell>
                             <StyledTableCell align="left">{row.edition}</StyledTableCell>

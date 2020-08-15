@@ -1,10 +1,24 @@
 import React from 'react';
 import './App.css';
-import SimpleTable from './containers/Home'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import SimpleTable from './containers/Table'
+import Header from './containers/Header';
+import Category from './containers/Category';
 
 function App() {
   return (
-    <SimpleTable />
+    <>
+      <Header />
+
+      <Category />
+
+      <SimpleTable />
+    </>
   );
 }
 
