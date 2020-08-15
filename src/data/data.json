@@ -430,16 +430,6 @@
     "newPrice": 32
   },
   {
-    "universe": "Marvel-Wonder Woman",
-    "name": "Wonder Woman",
-    "edition": "Sepia EXC",
-    "type": "Pop",
-    "number": "#229",
-    "buy": "25/07/20",
-    "price": 10.76,
-    "newPrice": 16.99
-  },
-  {
     "universe": "Marvel-X-Men",
     "name": "Mystique",
     "edition": "20Th Anniversary",
@@ -450,7 +440,7 @@
     "newPrice": 11.95
   },
   {
-    "universe": "Marvel-Suicide Squad",
+    "universe": "DC-Suicide Squad",
     "name": "Harley Quinn",
     "edition": null,
     "type": "Pop",
@@ -458,6 +448,16 @@
     "buy": "14/11/17",
     "price": 13.12,
     "newPrice": 11.85
+  },
+  {
+    "universe": "DC-Wonder Woman",
+    "name": "Wonder Woman",
+    "edition": "Sepia EXC",
+    "type": "Pop",
+    "number": "#229",
+    "buy": "25/07/20",
+    "price": 10.76,
+    "newPrice": 16.99
   },
   {
     "universe": "Game of Thrones",

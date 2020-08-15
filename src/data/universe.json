@@ -1,10 +1,46 @@
 [
     {
         "title": "The Lord Of The Ring",
-        "img": "/img/theLordOfTheRing.png"
+        "img": "/img/funkoTheLordOfTheRing.jpg"
     },
     {
         "title": "Harry Potter",
-        "img": ""
+        "img": "/img/funkoHarryPotter.jpg"
+    },
+    {
+        "title": "Disney",
+        "img": "/img/funkoDisney.jpg"
+    },
+    {
+        "title": "Marvel",
+        "img": "/img/funkoMarvel.png"
+    },
+    {
+        "title": "Back To The Futur",
+        "img": "/img/funkoBackToTheFutur.png"
+    },
+    {
+        "title": "Game Of Thrones",
+        "img": "/img/funkoGameOfThrones.jpg"
+    },
+    {
+        "title": "The Witcher",
+        "img": "/img/funkoTheWitcher.png"
+    },
+    {
+        "title": "Dragon Ball",
+        "img": "/img/funkoDragonBall.jpg"
+    },
+    {
+        "title": "How To Train Your Dragon",
+        "img": "/img/funkoHowToTrainYourDragon.png"
+    },
+    {
+        "title": "DC Comics",
+        "img": "/img/funkoDC.png"
+    },
+    {
+        "title": "Other",
+        "img": "/img/funkoOther.jpeg"
     }
 ]

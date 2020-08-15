@@ -15,7 +15,7 @@ const Header = () => {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
     return (
-        <div>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '20px' }}>
             <h1>Funko Pop Collection</h1>
             <BottomNavigation
                 value={value}
@@ -24,6 +24,7 @@ const Header = () => {
                 }}
                 showLabels
                 className={classes.root}
+                style={{ justifyContent: 'flex-end' }}
             >
                 <BottomNavigationAction label="Category" icon={<FolderIcon />} />
                 <BottomNavigationAction label="Collection" icon={<FavoriteIcon />} />

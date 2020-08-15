@@ -21,9 +21,9 @@ const useStyles = makeStyles({
 const Category = () => {
     const classes = useStyles();
     return (
-        <>
+        <div style={{ display: 'flex', margin: '20px', flexDirection: 'column', flexFlow: 'wrap', justifyContent: 'center' }} >
             {universe.map(e => (
-                <Card className={classes.root}>
+                <Card className={classes.root} style={{ width: '100%', margin: '20px' }}>
                     <CardActionArea>
                         <CardMedia
                             className={classes.media}
@@ -44,7 +44,7 @@ const Category = () => {
                 </Card>
             ))
             }
-        </>
+        </div>
     )
 }
 
