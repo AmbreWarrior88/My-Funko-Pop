@@ -12,10 +12,6 @@
         "img": "/img/funkoDisney.jpg"
     },
     {
-        "title": "Marvel",
-        "img": "/img/funkoMarvel.png"
-    },
-    {
         "title": "Back To The Futur",
         "img": "/img/funkoBackToTheFutur.png"
     },
@@ -32,12 +28,16 @@
         "img": "/img/funkoDragonBall.jpg"
     },
     {
-        "title": "How To Train Your Dragon",
-        "img": "/img/funkoHowToTrainYourDragon.png"
-    },
-    {
         "title": "DC Comics",
         "img": "/img/funkoDC.png"
+    },
+    {
+        "title": "Marvel",
+        "img": "/img/funkoMarvel.png"
+    },
+    {
+        "title": "How To Train Your Dragon",
+        "img": "/img/funkoHowToTrainYourDragon.png"
     },
     {
         "title": "Other",

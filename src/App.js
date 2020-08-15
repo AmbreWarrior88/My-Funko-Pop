@@ -9,6 +9,7 @@ import {
 import SimpleTable from './containers/Table'
 import Header from './containers/Header';
 import Category from './containers/Category';
+import Footer from './containers/Footer';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Category />
 
       <SimpleTable />
+
+      <Footer />
     </>
   );
 }
