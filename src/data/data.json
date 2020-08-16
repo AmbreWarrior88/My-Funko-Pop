@@ -7,7 +7,8 @@
     "number": "#634",
     "buy": "13/03/20",
     "price": 14.95,
-    "newPrice": 14.95
+    "newPrice": 14.95,
+    "img": "/img/funko/theLordOfTheRing/galadriel.png"
   },
   {
     "universe": "Le Seigneur des Anneaux",
@@ -17,7 +18,8 @@
     "number": "#534",
     "buy": "30/05/20",
     "price": 23.95,
-    "newPrice": 40.5
+    "newPrice": 40.5,
+    "img": "/img/funko/theLordOfTheRing/aragorn.png"
   },
   {
     "universe": "Le Seigneur des Anneaux",
@@ -27,7 +29,8 @@
     "number": "#447",
     "buy": "13/03/20",
     "price": 9.81,
-    "newPrice": 14
+    "newPrice": 14,
+    "img": "/img/funko/theLordOfTheRing/saruman.png"
   },
   {
     "universe": "Le Seigneur des Anneaux",
@@ -37,7 +40,8 @@
     "number": "#72",
     "buy": "20/11/19",
     "price": 33.95,
-    "newPrice": 25.85
+    "newPrice": 25.85,
+    "img": "/img/funko/theLordOfTheRing/gandalf.png"
   },
   {
     "universe": "Harry Potter",
@@ -47,7 +51,8 @@
     "number": "#31",
     "buy": "18/09/17",
     "price": 35,
-    "newPrice": 85
+    "newPrice": 85,
+    "img": "/img/funko/harryPotter/harry.png"
   },
   {
     "universe": "Harry Potter",
@@ -57,7 +62,8 @@
     "number": "#85",
     "buy": "13/03/20",
     "price": 14.95,
-    "newPrice": 24.99
+    "newPrice": 24.99,
+    "img": "/img/funko/harryPotter/voldemort.png"
   },
   {
     "universe": "Harry Potter",
@@ -67,7 +73,8 @@
     "number": "#04",
     "buy": "21/05/18",
     "price": 7.99,
-    "newPrice": 11.81
+    "newPrice": 11.81,
+    "img": "/img/funko/harryPotter/albus.png"
   },
   {
     "universe": "Harry Potter",
@@ -77,7 +84,8 @@
     "number": "#80",
     "buy": "22/08/2019",
     "price": 27.4,
-    "newPrice": 40
+    "newPrice": 40,
+    "img": "/img/funko/harryPotter/hermione.png"
   },
   {
     "universe": "Harry Potter",
@@ -87,7 +95,8 @@
     "number": "#72",
     "buy": "07/2019",
     "price": 15,
-    "newPrice": 31.79
+    "newPrice": 31.79,
+    "img": "/img/funko/harryPotter/ron.png"
   },
   {
     "universe": "Harry Potter",
@@ -97,7 +106,8 @@
     "number": "#106",
     "buy": "17/07/20",
     "price": 13.11,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/harryPotter/patronus.png"
   },
   {
     "universe": "Harry Potter",
@@ -107,7 +117,8 @@
     "number": "#93",
     "buy": "08/01/20",
     "price": 12.62,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/harryPotter/minerva.png"
   },
   {
     "universe": "Harry Potter",
@@ -117,7 +128,8 @@
     "number": "#87",
     "buy": "17/07/19",
     "price": 15.1,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/harryPotter/fumseck.png"
   },
   {
     "universe": "Harry Potter",
@@ -127,7 +139,8 @@
     "number": "#104",
     "buy": "31/01/20",
     "price": 17.99,
-    "newPrice": 34.99
+    "newPrice": 34.99,
+    "img": "/img/funko/harryPotter/buck.png"
   },
   {
     "universe": "Harry Potter",
@@ -137,7 +150,8 @@
     "number": "#86",
     "buy": "26/07/20",
     "price": 16.9,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/harryPotter/sibyll.png"
   },
   {
     "universe": "Disney",
@@ -147,7 +161,8 @@
     "number": "#428",
     "buy": "25/07/20",
     "price": 8.56,
-    "newPrice": 11.7
+    "newPrice": 11.7,
+    "img": "/img/funko/disney/mickey.png"
   },
   {
     "universe": "Disney-Aladin",
@@ -157,7 +172,8 @@
     "number": "#475",
     "buy": "25/07/20",
     "price": 8.56,
-    "newPrice": 9.9
+    "newPrice": 9.9,
+    "img": "/img/funko/disney/aladin.png"
   },
   {
     "universe": "Disney-Aladin",
@@ -167,7 +183,8 @@
     "number": "#326",
     "buy": "21/03/18",
     "price": 9.85,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/disney/jasmine.png"
   },
   {
     "universe": "Disney-Aladin",
@@ -177,7 +194,8 @@
     "number": "#355",
     "buy": "21/03/18",
     "price": 6.77,
-    "newPrice": 20.58
+    "newPrice": 20.58,
+    "img": "/img/funko/disney/rajah.png"
   },
   {
     "universe": "Disney-Mulan",
@@ -187,7 +205,8 @@
     "number": "#76",
     "buy": "24/01/20",
     "price": 30.52,
-    "newPrice": 32.95
+    "newPrice": 32.95,
+    "img": "/img/funko/disney/khan.png"
   },
   {
     "universe": "Disney-Mulan",
@@ -197,7 +216,8 @@
     "number": "#323",
     "buy": "21/03/18",
     "price": 14.17,
-    "newPrice": 16.95
+    "newPrice": 16.95,
+    "img": "/img/funko/disney/mulan.png"
   },
   {
     "universe": "Disney-Mulan",
@@ -207,7 +227,8 @@
     "number": "#167",
     "buy": "21/03/18",
     "price": 17.57,
-    "newPrice": 9.79
+    "newPrice": 9.79,
+    "img": "/img/funko/disney/cricket.png"
   },
   {
     "universe": "Disney-Mulan",
@@ -217,7 +238,8 @@
     "number": "#630",
     "buy": "31/01/20",
     "price": 17.99,
-    "newPrice": 39.99
+    "newPrice": 39.99,
+    "img": "/img/funko/disney/mushu.png"
   },
   {
     "universe": "Disney-La Belle et la Bête",
@@ -227,7 +249,8 @@
     "number": "#239",
     "buy": "24/10/18",
     "price": 14.99,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/disney/bête.png"
   },
   {
     "universe": "Disney-La Belle et la Bête",
@@ -237,7 +260,8 @@
     "number": "#242",
     "buy": "21/03/18",
     "price": 11.37,
-    "newPrice": 14.71
+    "newPrice": 14.71,
+    "img": "/img/funko/disney/belle.png"
   },
   {
     "universe": "Disney-La Belle et la Bête",
@@ -247,7 +271,8 @@
     "number": "#92",
     "buy": "09/01/15",
     "price": 15.98,
-    "newPrice": 76.41
+    "newPrice": 117.64,
+    "img": "/img/funko/disney/samovar.png"
   },
   {
     "universe": "Disney-Cendrillon",
@@ -257,7 +282,8 @@
     "number": "#222",
     "buy": "21/03/18",
     "price": 22,
-    "newPrice": 50
+    "newPrice": 50,
+    "img": "/img/funko/disney/cinderella.png"
   },
   {
     "universe": "Disney-Cendrillon",
@@ -267,7 +293,8 @@
     "number": "#139",
     "buy": "14/11/17",
     "price": 14,
-    "newPrice": 66.65
+    "newPrice": 66.65,
+    "img": "/img/funko/disney/gusgus.png"
   },
   {
     "universe": "Disney-Cendrillon",
@@ -277,7 +304,8 @@
     "number": "#739",
     "buy": "25/07/20",
     "price": 8.56,
-    "newPrice": 11.99
+    "newPrice": 11.99,
+    "img": "/img/funko/disney/godmother.png"
   },
   {
     "universe": "Disney-La Petite Sirène",
@@ -287,7 +315,8 @@
     "number": "#27",
     "buy": "19/03/18",
     "price": 12.18,
-    "newPrice": 9.78
+    "newPrice": 9.78,
+    "img": "/img/funko/disney/ariel.png"
   },
   {
     "universe": "Disney-La Petite Sirène",
@@ -297,7 +326,8 @@
     "number": "#568",
     "buy": "25/07/20",
     "price": 18.28,
-    "newPrice": 22.95
+    "newPrice": 22.95,
+    "img": "/img/funko/disney/ursula.png"
   },
   {
     "universe": "Disney-Hercule",
@@ -307,7 +337,8 @@
     "number": "#383",
     "buy": "24/10/18",
     "price": 7.73,
-    "newPrice": 10.29
+    "newPrice": 10.29,
+    "img": "/img/funko/disney/pegase.png"
   },
   {
     "universe": "Disney-Hercule",
@@ -317,7 +348,8 @@
     "number": "#382",
     "buy": "24/10/18",
     "price": 8.43,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/disney/hercule.png"
   },
   {
     "universe": "Disney-Le Bossu de Notre-Dame",
@@ -327,7 +359,8 @@
     "number": "#635",
     "buy": "08/01/20",
     "price": 11.93,
-    "newPrice": 8.12
+    "newPrice": 8.12,
+    "img": "/img/funko/disney/esmeralda.png"
   },
   {
     "universe": "Disney-Alice Au Pays Des Merveilles",
@@ -337,7 +370,8 @@
     "number": "#234",
     "buy": "08/01/20",
     "price": 22.50,
-    "newPrice": 39.67
+    "newPrice": 39.67,
+    "img": "/img/funko/disney/queen.png"
   },
   {
     "universe": "Disney-L’Étrange Noël de Monsieur Jack",
@@ -347,7 +381,8 @@
     "number": "#71",
     "buy": "13/03/20",
     "price": 11.95,
-    "newPrice": 10.29
+    "newPrice": 10.29,
+    "img": "/img/funko/disney/zero.png"
   },
   {
     "universe": "Disney-L’Étrange Noël de Monsieur Jack",
@@ -357,17 +392,19 @@
     "number": "#O7",
     "buy": "31/01/20",
     "price": 29.58,
-    "newPrice": 34.49
+    "newPrice": 34.49,
+    "img": "/img/funko/disney/jack.png"
   },
   {
     "universe": "Disney-The Maleficient (Live Action)",
-    "name": "Maleficent",
+    "name": "Malefique",
     "edition": null,
     "type": "Pop",
     "number": "#627",
     "buy": "24/10/19",
     "price": 14.21,
-    "newPrice": 14.71
+    "newPrice": 14.71,
+    "img": "/img/funko/disney/maleficientMovie.png"
   },
   {
     "universe": "Disney-Villains",
@@ -377,17 +414,8 @@
     "number": "#784",
     "buy": "25/07/20",
     "price": 27.95,
-    "newPrice": 27.95
-  },
-  {
-    "universe": "Disney-Villains",
-    "name": "Cruella De Vil",
-    "edition": "Hot Topic - Pailleté",
-    "type": "Pop",
-    "number": "#736",
-    "buy": "25/07/20",
-    "price": 18.99,
-    "newPrice": 24.75
+    "newPrice": 27.95,
+    "img": "/img/funko/disney/maleficient.png"
   },
   {
     "universe": "Retour vers le Futur",
@@ -397,7 +425,8 @@
     "number": "#50",
     "buy": "21/05/18",
     "price": 9.49,
-    "newPrice": 19.83
+    "newPrice": 19.83,
+    "img": "/img/funko/backToTheFutur/doc.png"
   },
   {
     "universe": "Retour vers le Futur",
@@ -407,7 +436,8 @@
     "number": "#965",
     "buy": "25/07/20",
     "price": 19.99,
-    "newPrice": 19.99
+    "newPrice": 19.99,
+    "img": "/img/funko/backToTheFutur/marty.png"
   },
   {
     "universe": "Marvel-Deadpool",
@@ -417,7 +447,8 @@
     "number": "#320",
     "buy": "25/07/20",
     "price": 8.56,
-    "newPrice": 19.83
+    "newPrice": 19.83,
+    "img": "/img/funko/marvel/deadpool.png"
   },
   {
     "universe": "Marvel-Gardiens de la Galaxie",
@@ -427,7 +458,8 @@
     "number": "#65",
     "buy": "09/01/15",
     "price": 10.95,
-    "newPrice": 32
+    "newPrice": 32,
+    "img": "/img/funko/marvel/groot.png"
   },
   {
     "universe": "Marvel-X-Men",
@@ -437,7 +469,8 @@
     "number": "#638",
     "buy": "25/07/20",
     "price": 11.95,
-    "newPrice": 11.95
+    "newPrice": 11.95,
+    "img": "/img/funko/marvel/mystique.png"
   },
   {
     "universe": "DC-Suicide Squad",
@@ -447,7 +480,8 @@
     "number": "#97",
     "buy": "14/11/17",
     "price": 13.12,
-    "newPrice": 11.85
+    "newPrice": 11.85,
+    "img": "/img/funko/dc/harley.png"
   },
   {
     "universe": "DC-Wonder Woman",
@@ -457,7 +491,8 @@
     "number": "#229",
     "buy": "25/07/20",
     "price": 10.76,
-    "newPrice": 16.99
+    "newPrice": 16.99,
+    "img": "/img/funko/dc/wonder.png"
   },
   {
     "universe": "Game of Thrones",
@@ -467,7 +502,8 @@
     "number": "#72",
     "buy": "07/19",
     "price": 15,
-    "newPrice": 16.43
+    "newPrice": 16.43,
+    "img": "/img/funko/gameOfThrones/jon.png"
   },
   {
     "universe": "Game of Thrones",
@@ -477,7 +513,8 @@
     "number": "#15",
     "buy": "14/11/17",
     "price": 18.27,
-    "newPrice": 20.19
+    "newPrice": 20.19,
+    "img": "/img/funko/gameOfThrones/daenerys.png"
   },
   {
     "universe": "Bleach",
@@ -487,7 +524,8 @@
     "number": "#59",
     "buy": "19/03/18",
     "price": 14.99,
-    "newPrice": 33.30
+    "newPrice": 33.30,
+    "img": "/img/funko/other/ichigo.png"
   },
   {
     "universe": "Dragon Ball Z",
@@ -497,7 +535,8 @@
     "number": "#641",
     "buy": "31/01/20",
     "price": 11.04,
-    "newPrice": 35
+    "newPrice": 35,
+    "img": "/img/funko/dragonBall/goten.png"
   },
   {
     "universe": "Dragon Ball Z",
@@ -507,7 +546,8 @@
     "number": "#669",
     "buy": "31/01/20",
     "price": 14.44,
-    "newPrice": 40.99
+    "newPrice": 40.99,
+    "img": "/img/funko/dragonBall/vegeta.png"
   },
   {
     "universe": "How To Train Your Dragon",
@@ -517,7 +557,8 @@
     "number": "#687",
     "buy": "03/04/19",
     "price": 21.79,
-    "newPrice": 23.50
+    "newPrice": 23.50,
+    "img": "/img/funko/howToTrainYourDragon/light.png"
   },
   {
     "universe": "How To Train Your Dragon",
@@ -527,7 +568,8 @@
     "number": "#95",
     "buy": "2014",
     "price": 0,
-    "newPrice": 69.90
+    "newPrice": 69.90,
+    "img": "/img/funko/howToTrainYourDragon/harold.png"
   },
   {
     "universe": "How To Train Your Dragon",
@@ -537,7 +579,8 @@
     "number": "#100",
     "buy": "2014",
     "price": 0,
-    "newPrice": 47.98
+    "newPrice": 47.98,
+    "img": "/img/funko/howToTrainYourDragon/krokmou.png"
   },
   {
     "universe": "The Witcher",
@@ -547,7 +590,8 @@
     "number": "#554",
     "buy": "25/07/20",
     "price": 29.83,
-    "newPrice": 27.90
+    "newPrice": 27.90,
+    "img": "/img/funko/theWitcher/geralt.png"
   },
   {
     "universe": "La Casa De Papel",
@@ -557,7 +601,8 @@
     "number": "#916",
     "buy": "20/11/19",
     "price": 12.99,
-    "newPrice": 42.30
+    "newPrice": 42.30,
+    "img": "/img/funko/other/nairobi.png"
   },
   {
     "universe": "Ready Player One",
@@ -567,6 +612,7 @@
     "number": "#497",
     "buy": "21/05/18",
     "price": 9.25,
-    "newPrice": 9.27
+    "newPrice": 9.27,
+    "img": "/img/funko/other/artemis.png"
   }
 ]
