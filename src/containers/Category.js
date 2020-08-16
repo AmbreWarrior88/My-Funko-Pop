@@ -45,7 +45,7 @@ const Category = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Link underline="none" href="/funkoCard">
+                        <Link to="/funkoCard">
                             <Button size="small" color="primary">
                                 Voir la collection
                         </Button>
