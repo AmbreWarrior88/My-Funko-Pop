@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 const Header = () => {
 
     const classes = useStyles();
-    const [value, setValue] = useState(0);
+    const [value, setValue] = useState('category');
 
     return (
         <div>
@@ -37,8 +37,8 @@ const Header = () => {
                     className={classes.bottomNavigationRoot}
                     style={{ justifyContent: 'flex-end' }}
                 >
-                    <BottomNavigationAction label="Category" icon={<FolderIcon />} />
-                    <BottomNavigationAction label="Collection" icon={<FavoriteIcon />} />
+                    <BottomNavigationAction label="Category" value="category" icon={<FolderIcon />} />
+                    <BottomNavigationAction label="Collection" value="collection" icon={<FavoriteIcon />} />
                 </BottomNavigation>
             </div>
             <form className={classes.textFieldRoot} noValidate autoComplete="off" style={{ display: 'flex', justifyContent: 'center' }}>

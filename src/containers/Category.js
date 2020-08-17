@@ -14,7 +14,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import universe from '../data/universe.json';
-import FunkoCard from '../components/Card';
 
 const useStyles = makeStyles({
     root: {
@@ -30,29 +29,22 @@ const Category = () => {
     return (
         <div style={{ display: 'flex', margin: '20px', flexDirection: 'column', flexFlow: 'wrap', justifyContent: 'center' }} >
             {universe.map(e => (
-
                 <Card className={classes.root} style={{ width: '100%', margin: '20px' }} >
-                    <CardActionArea>
-                        <CardMedia
-                            className={classes.media}
-                            image={e.img}
-                            title="Wallpaper"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="h2">
-                                {e.title}
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Link to="/funkoCard">
-                            <Button size="small" color="primary">
-                                Voir la collection
-                        </Button>
-                        </Link>
-                    </CardActions>
+                    <Link to="/funkoCard" style={{ textDecoration: 'none' }}>
+                        <CardActionArea>
+                            <CardMedia
+                                className={classes.media}
+                                image={e.img}
+                                title="Wallpaper"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2" style={{ color: 'black' }}>
+                                    {e.title}
+                                </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                    </Link>
                 </Card>
-
             ))
             }
         </div>

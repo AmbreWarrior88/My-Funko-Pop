@@ -1,22 +1,28 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
+import Divider from '@material-ui/core/Divider';
+import data from '../data/data.json';
 import Typography from '@material-ui/core/Typography';
-
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: 345,
+        width: '100%',
+        maxWidth: 800,
+        backgroundColor: theme.palette.background.paper,
+        margin: 30,
     },
-    media: {
-        height: 0,
-        paddingTop: '56.25%', // 16:9
+    numberAvatar: {
+        width: theme.spacing(6),
+        height: theme.spacing(6),
     },
-    avatar: {
+    priceAvatar: {
+        width: theme.spacing(10),
+        height: theme.spacing(10),
         backgroundColor: 'green',
     },
 }));
@@ -27,39 +33,27 @@ const FunkoCard = () => {
     const classes = useStyles();
 
     return (
-        <div>
-            <Card className={classes.root}>
-                <CardMedia
-                    className={classes.media}
-                    image="/img/funko/harryPotter/harry.png"
-                    title="Harry"
-                />
-                <div>
-                    <CardHeader
-                        avatar={
-                            <Avatar aria-label="recipe" className={classes.avatar}>
-                                #123
-          </Avatar>
-                        }
-                        title="Harry"
-                        subheader="SDCC 2017"
-                    />
-                    <CardContent>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Date d'achat: 18/09/17
-        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Prix d'achat: 35 €
-        </Typography>
-                    </CardContent>
-                </div>
-                <CardContent>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        Côte: 85 €
-        </Typography>
-                </CardContent>
-
-            </Card>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            {
+                data.map(e => (
+                    <List className={classes.root}>
+                        <ListItem>
+                            <img src={e.img} alt={e.universe} style={{ height: '150px' }} />
+                            <ListItemAvatar>
+                                <Avatar className={classes.numberAvatar}>
+                                    {e.number}
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText primary={`${e.name} - ${e.edition}`}
+                                secondary={`Date d'achat : ${e.buy} - Prix d'achat : ${e.price} €`} />
+                            <Avatar className={classes.priceAvatar}>
+                                {`${e.newPrice} €`}
+                            </Avatar>
+                        </ListItem>
+                        <Divider variant="inset" component="li" />
+                    </List>
+                ))
+            }
         </div>
     )
 }

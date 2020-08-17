@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact Path="/">
+        <Route exact path="/">
           <HomePage />
         </Route>
         <Route path="/funkoCard">
