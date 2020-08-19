@@ -7,7 +7,6 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
 import data from '../data/data.json';
-import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -28,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-const FunkoCard = () => {
+const FunkosList = () => {
 
     const classes = useStyles();
 
@@ -58,4 +57,4 @@ const FunkoCard = () => {
     )
 }
 
-export default FunkoCard;
+export default FunkosList;

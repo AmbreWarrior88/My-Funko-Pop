@@ -5,14 +5,24 @@ import TableBody from '@material-ui/core/TableBody';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import Paper from '@material-ui/core/Paper';
-import rows from '../components/Rows';
 import { StyledTableCell, StyledTableRow } from '../components/Style';
+import data from '../data/data.json';
 
 const useStyles = makeStyles({
     table: {
         minWidth: 650,
     },
 });
+
+const createData = (universe, name, edition, type, number, buy, price, newPrice) => (
+    { universe, name, edition, type, number, buy, price, newPrice }
+);
+
+const rows =
+    data.map(e => (
+        createData(e.universe, e.name, e.edition, e.type, e.number, e.buy, e.price, e.newPrice)
+    )
+    )
 
 function ccyFormat(num) {
     return `${num.toFixed(2)}`;

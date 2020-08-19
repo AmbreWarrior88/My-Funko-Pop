@@ -1,12 +1,11 @@
 import React from 'react';
-import Category from './Category';
-import SimpleTable from './Table';
-import FunkoCard from '../components/Card';
+import Universes from '../components/Universes';
+import SimpleTable from '../components/Table';
 
 const HomePage = () => {
     return (
         <>
-            <Category />
+            <Universes />
             <SimpleTable />
         </>
     )

@@ -9,7 +9,7 @@ import {
 import Header from './containers/Header';
 import Footer from './containers/Footer';
 import HomePage from './containers/HomePage';
-import FunkoCard from './components/Card';
+import FunkosList from './components/FunkosList';
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route path="/funkoCard">
-          <FunkoCard />
+        <Route path="/universe/:name">
+          <FunkosList />
         </Route>
       </Switch>
       <Footer />
