@@ -369,7 +369,7 @@
     "type": "Pop",
     "number": "#234",
     "buy": "08/01/20",
-    "price": 22.50,
+    "price": 22.5,
     "newPrice": 39.67,
     "img": "/img/funko/disney/queen.png"
   },
@@ -426,7 +426,7 @@
     "buy": "21/05/18",
     "price": 9.49,
     "newPrice": 19.83,
-    "img": "/img/funko/backToTheFutur/doc.png"
+    "img": "/img/funko/backToTheFuture/doc.png"
   },
   {
     "universe": "Retour vers le Futur",
@@ -524,7 +524,7 @@
     "number": "#59",
     "buy": "19/03/18",
     "price": 14.99,
-    "newPrice": 33.30,
+    "newPrice": 33.3,
     "img": "/img/funko/other/ichigo.png"
   },
   {
@@ -557,7 +557,7 @@
     "number": "#687",
     "buy": "03/04/19",
     "price": 21.79,
-    "newPrice": 23.50,
+    "newPrice": 23.5,
     "img": "/img/funko/howToTrainYourDragon/light.png"
   },
   {
@@ -568,7 +568,7 @@
     "number": "#95",
     "buy": "2014",
     "price": 0,
-    "newPrice": 69.90,
+    "newPrice": 69.9,
     "img": "/img/funko/howToTrainYourDragon/harold.png"
   },
   {
@@ -590,7 +590,7 @@
     "number": "#554",
     "buy": "25/07/20",
     "price": 29.83,
-    "newPrice": 27.90,
+    "newPrice": 27.9,
     "img": "/img/funko/theWitcher/geralt.png"
   },
   {
@@ -601,7 +601,7 @@
     "number": "#916",
     "buy": "20/11/19",
     "price": 12.99,
-    "newPrice": 42.30,
+    "newPrice": 42.3,
     "img": "/img/funko/other/nairobi.png"
   },
   {
