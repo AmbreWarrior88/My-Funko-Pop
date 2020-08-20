@@ -1,0 +1,22 @@
+/* HEADER */
+
+.header {
+  background-image: url("/img/wallpaper/funko_wallpaper1.png");
+  background-position: center;
+  height: 300px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+}
+
+h1 {
+  color: #fc00fd;
+}
+
+.MuiBottomNavigationAction-wrapper {
+  color: #fc00fd;
+}

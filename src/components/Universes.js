@@ -32,7 +32,7 @@ const Universes = () => {
         <div style={{ display: 'flex', margin: '20px', flexDirection: 'column', flexFlow: 'wrap', justifyContent: 'center' }} >
             {universes.map(e => (
                 <Card className={classes.root} style={{ width: '100%', margin: '20px' }} >
-                    <Link to="/universe/:name" style={{ textDecoration: 'none' }}>
+                    <Link to={`/universe/${e.title}`} style={{ textDecoration: 'none' }}>
                         <CardActionArea>
                             <CardMedia
                                 className={classes.media}
