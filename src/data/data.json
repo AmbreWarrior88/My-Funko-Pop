@@ -1,6 +1,6 @@
 [
   {
-    "universe": "Le Seigneur des Anneaux",
+    "universe": "The Lord Of The Ring",
     "name": "Galadriel",
     "edition": "Tempted",
     "type": "Pop",
@@ -11,7 +11,7 @@
     "img": "/img/funko/theLordOfTheRing/galadriel.png"
   },
   {
-    "universe": "Le Seigneur des Anneaux",
+    "universe": "The Lord Of The Ring",
     "name": "Roi Aragorn",
     "edition": "Exclusive",
     "type": "Pop",
@@ -22,7 +22,7 @@
     "img": "/img/funko/theLordOfTheRing/aragorn.png"
   },
   {
-    "universe": "Le Seigneur des Anneaux",
+    "universe": "The Lord Of The Ring",
     "name": "Saruman",
     "edition": null,
     "type": "Pop",
@@ -33,7 +33,7 @@
     "img": "/img/funko/theLordOfTheRing/saruman.png"
   },
   {
-    "universe": "Le Seigneur des Anneaux",
+    "universe": "The Lord Of The Ring",
     "name": "Gandalf sur Gwaihir",
     "edition": null,
     "type": "Rides",
@@ -165,7 +165,7 @@
     "img": "/img/funko/disney/mickey.png"
   },
   {
-    "universe": "Disney-Aladin",
+    "universe": "Disney",
     "name": "Prince Ali",
     "edition": null,
     "type": "Pop",
@@ -176,7 +176,7 @@
     "img": "/img/funko/disney/aladin.png"
   },
   {
-    "universe": "Disney-Aladin",
+    "universe": "Disney",
     "name": "Jasmine",
     "edition": "New",
     "type": "Pop",
@@ -187,7 +187,7 @@
     "img": "/img/funko/disney/jasmine.png"
   },
   {
-    "universe": "Disney-Aladin",
+    "universe": "Disney",
     "name": "Rajah",
     "edition": null,
     "type": "Pop",
@@ -198,7 +198,7 @@
     "img": "/img/funko/disney/rajah.png"
   },
   {
-    "universe": "Disney-Mulan",
+    "universe": "Disney",
     "name": "Mulan sur Khan",
     "edition": null,
     "type": "Rides",
@@ -209,7 +209,7 @@
     "img": "/img/funko/disney/khan.png"
   },
   {
-    "universe": "Disney-Mulan",
+    "universe": "Disney",
     "name": "Mulan",
     "edition": "New",
     "type": "Pop",
@@ -220,7 +220,7 @@
     "img": "/img/funko/disney/mulan.png"
   },
   {
-    "universe": "Disney-Mulan",
+    "universe": "Disney",
     "name": "Mushu & Cricket",
     "edition": null,
     "type": "Pop",
@@ -231,7 +231,7 @@
     "img": "/img/funko/disney/cricket.png"
   },
   {
-    "universe": "Disney-Mulan",
+    "universe": "Disney",
     "name": "Mushu",
     "edition": "Glitter",
     "type": "Pop",
@@ -242,7 +242,7 @@
     "img": "/img/funko/disney/mushu.png"
   },
   {
-    "universe": "Disney-La Belle et la Bête",
+    "universe": "Disney",
     "name": "La Bête",
     "edition": null,
     "type": "Pop",
@@ -253,7 +253,7 @@
     "img": "/img/funko/disney/bête.png"
   },
   {
-    "universe": "Disney-La Belle et la Bête",
+    "universe": "Disney",
     "name": "Belle",
     "edition": "Movie",
     "type": "Pop",
@@ -264,7 +264,7 @@
     "img": "/img/funko/disney/belle.png"
   },
   {
-    "universe": "Disney-La Belle et la Bête",
+    "universe": "Disney",
     "name": "Mme Samovar & Chip",
     "edition": null,
     "type": "Pop",
@@ -275,7 +275,7 @@
     "img": "/img/funko/disney/samovar.png"
   },
   {
-    "universe": "Disney-Cendrillon",
+    "universe": "Disney",
     "name": "Cendrillon",
     "edition": "Métallique",
     "type": "Pop",
@@ -286,7 +286,7 @@
     "img": "/img/funko/disney/cinderella.png"
   },
   {
-    "universe": "Disney-Cendrillon",
+    "universe": "Disney",
     "name": "Gus Gus dans pantoufle de verre",
     "edition": null,
     "type": "Pop",
@@ -297,7 +297,7 @@
     "img": "/img/funko/disney/gusgus.png"
   },
   {
-    "universe": "Disney-Cendrillon",
+    "universe": "Disney",
     "name": "Marraine la Bonne Fée",
     "edition": null,
     "type": "Pop",
@@ -308,7 +308,7 @@
     "img": "/img/funko/disney/godmother.png"
   },
   {
-    "universe": "Disney-La Petite Sirène",
+    "universe": "Disney",
     "name": "Ariel",
     "edition": null,
     "type": "Pop",
@@ -319,7 +319,7 @@
     "img": "/img/funko/disney/ariel.png"
   },
   {
-    "universe": "Disney-La Petite Sirène",
+    "universe": "Disney",
     "name": "Ursula",
     "edition": "Hot topic - Pailleté",
     "type": "Pop",
@@ -330,7 +330,7 @@
     "img": "/img/funko/disney/ursula.png"
   },
   {
-    "universe": "Disney-Hercule",
+    "universe": "Disney",
     "name": "Bébé Pégase",
     "edition": null,
     "type": "Pop",
@@ -341,7 +341,7 @@
     "img": "/img/funko/disney/pegase.png"
   },
   {
-    "universe": "Disney-Hercule",
+    "universe": "Disney",
     "name": "Bébé Hercule",
     "edition": null,
     "type": "Pop",
@@ -352,7 +352,7 @@
     "img": "/img/funko/disney/hercule.png"
   },
   {
-    "universe": "Disney-Le Bossu de Notre-Dame",
+    "universe": "Disney",
     "name": "Esmeralda",
     "edition": null,
     "type": "Pop",
@@ -363,18 +363,18 @@
     "img": "/img/funko/disney/esmeralda.png"
   },
   {
-    "universe": "Disney-Alice Au Pays Des Merveilles",
+    "universe": "Disney",
     "name": "Reine de Coeur",
     "edition": "Hot Topic",
     "type": "Pop",
     "number": "#234",
     "buy": "08/01/20",
-    "price": 22.50,
+    "price": 22.5,
     "newPrice": 39.67,
     "img": "/img/funko/disney/queen.png"
   },
   {
-    "universe": "Disney-L’Étrange Noël de Monsieur Jack",
+    "universe": "Disney",
     "name": "Zéro (Chien Fantôme)",
     "edition": null,
     "type": "Pop",
@@ -385,7 +385,7 @@
     "img": "/img/funko/disney/zero.png"
   },
   {
-    "universe": "Disney-L’Étrange Noël de Monsieur Jack",
+    "universe": "Disney",
     "name": "Jack et sa maison",
     "edition": null,
     "type": "Pop",
@@ -396,7 +396,7 @@
     "img": "/img/funko/disney/jack.png"
   },
   {
-    "universe": "Disney-The Maleficient (Live Action)",
+    "universe": "Disney",
     "name": "Malefique",
     "edition": null,
     "type": "Pop",
@@ -407,7 +407,7 @@
     "img": "/img/funko/disney/maleficientMovie.png"
   },
   {
-    "universe": "Disney-Villains",
+    "universe": "Disney",
     "name": "Maléfique sur son trône",
     "edition": null,
     "type": "Pop",
@@ -418,7 +418,7 @@
     "img": "/img/funko/disney/maleficient.png"
   },
   {
-    "universe": "Retour vers le Futur",
+    "universe": "Back To The Future",
     "name": "Dr. Emmett Brown",
     "edition": null,
     "type": "Pop",
@@ -429,7 +429,7 @@
     "img": "/img/funko/backToTheFutur/doc.png"
   },
   {
-    "universe": "Retour vers le Futur",
+    "universe": "Back To The Future",
     "name": "Marty verifiant l'heure",
     "edition": "Exclusivité SDCC",
     "type": "Pop",
@@ -440,7 +440,7 @@
     "img": "/img/funko/backToTheFutur/marty.png"
   },
   {
-    "universe": "Marvel-Deadpool",
+    "universe": "Marvel",
     "name": "Deadpool",
     "edition": "Bobble Head",
     "type": "Pop",
@@ -451,7 +451,7 @@
     "img": "/img/funko/marvel/deadpool.png"
   },
   {
-    "universe": "Marvel-Gardiens de la Galaxie",
+    "universe": "Marvel",
     "name": "Groot dansant",
     "edition": null,
     "type": "Pop",
@@ -462,7 +462,7 @@
     "img": "/img/funko/marvel/groot.png"
   },
   {
-    "universe": "Marvel-X-Men",
+    "universe": "Marvel",
     "name": "Mystique",
     "edition": "20Th Anniversary",
     "type": "Pop",
@@ -473,7 +473,7 @@
     "img": "/img/funko/marvel/mystique.png"
   },
   {
-    "universe": "DC-Suicide Squad",
+    "universe": "DC Comics",
     "name": "Harley Quinn",
     "edition": null,
     "type": "Pop",
@@ -484,7 +484,7 @@
     "img": "/img/funko/dc/harley.png"
   },
   {
-    "universe": "DC-Wonder Woman",
+    "universe": "DC Comics",
     "name": "Wonder Woman",
     "edition": "Sepia EXC",
     "type": "Pop",
@@ -495,7 +495,7 @@
     "img": "/img/funko/dc/wonder.png"
   },
   {
-    "universe": "Game of Thrones",
+    "universe": "Game Of Thrones",
     "name": "Jon Snow on Iron throne",
     "edition": "Japan Expo 2019",
     "type": "Pop",
@@ -506,7 +506,7 @@
     "img": "/img/funko/gameOfThrones/jon.png"
   },
   {
-    "universe": "Game of Thrones",
+    "universe": "Game Of Thrones",
     "name": "Daenerys & Drogon",
     "edition": "Sans boîte",
     "type": "Rides",
@@ -524,11 +524,11 @@
     "number": "#59",
     "buy": "19/03/18",
     "price": 14.99,
-    "newPrice": 33.30,
+    "newPrice": 33.3,
     "img": "/img/funko/other/ichigo.png"
   },
   {
-    "universe": "Dragon Ball Z",
+    "universe": "Dragon Ball",
     "name": "Super Sayen Goten",
     "edition": "Hot Topic",
     "type": "Pop",
@@ -539,7 +539,7 @@
     "img": "/img/funko/dragonBall/goten.png"
   },
   {
-    "universe": "Dragon Ball Z",
+    "universe": "Dragon Ball",
     "name": "Vegeta",
     "edition": "Limited Edition 2019 Fall Convention",
     "type": "Pop",
@@ -557,7 +557,7 @@
     "number": "#687",
     "buy": "03/04/19",
     "price": 21.79,
-    "newPrice": 23.50,
+    "newPrice": 23.5,
     "img": "/img/funko/howToTrainYourDragon/light.png"
   },
   {
@@ -568,7 +568,7 @@
     "number": "#95",
     "buy": "2014",
     "price": 0,
-    "newPrice": 69.90,
+    "newPrice": 69.9,
     "img": "/img/funko/howToTrainYourDragon/harold.png"
   },
   {
@@ -590,7 +590,7 @@
     "number": "#554",
     "buy": "25/07/20",
     "price": 29.83,
-    "newPrice": 27.90,
+    "newPrice": 27.9,
     "img": "/img/funko/theWitcher/geralt.png"
   },
   {
@@ -601,7 +601,7 @@
     "number": "#916",
     "buy": "20/11/19",
     "price": 12.99,
-    "newPrice": 42.30,
+    "newPrice": 42.3,
     "img": "/img/funko/other/nairobi.png"
   },
   {

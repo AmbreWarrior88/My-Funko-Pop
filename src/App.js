@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./containers/Header/header";
 import Footer from "./containers/Footer";
 import HomePage from "./containers/HomePage";
@@ -11,12 +11,12 @@ function App() {
   return (
     <Router>
       <Header />
-      <Container maxWidth="md">
+      <Container maxWidth="80%">
         <Switch>
           <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path="/universe/:name">
+          <Route path="/universe/:universeId">
             <FunkosList />
           </Route>
         </Switch>

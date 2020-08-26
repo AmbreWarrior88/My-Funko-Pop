@@ -1,0 +1,9 @@
+/* UNIVERSES */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  /* margin: 20px; */
+}

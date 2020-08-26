@@ -1,5 +1,5 @@
 import React from 'react';
-import Universes from '../components/Universes';
+import Universes from '../components/Universes/Universes';
 import SimpleTable from '../components/Table';
 
 const HomePage = () => {

@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import {
+    useParams
+} from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -6,7 +9,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
-import data from '../data/data.json';
+/* import data from '../data/data.json'; */
+
+import axios from "axios";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -30,14 +35,25 @@ const useStyles = makeStyles((theme) => ({
 const FunkosList = () => {
 
     const classes = useStyles();
+    const { universeId } = useParams();
+
+    const [funkosList, setFunkosList] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const response = await axios.get(`http://localhost:4000/funkos/${universeId}`);
+            setFunkosList(response.data);
+        }
+        fetchData();
+    }, []);
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             {
-                data.map(e => (
-                    <List className={classes.root}>
+                funkosList.map(e => {
+                    return <List className={classes.root} key={e._id}>
                         <ListItem>
-                            <img src={e.img} alt={e.universe} style={{ height: '150px' }} />
+                            <img src={`/img/funko/${e.img}`} alt={e.universe} style={{ height: '150px' }} />
                             <ListItemAvatar>
                                 <Avatar className={classes.numberAvatar}>
                                     {e.number}
@@ -51,7 +67,8 @@ const FunkosList = () => {
                         </ListItem>
                         <Divider variant="inset" component="li" />
                     </List>
-                ))
+                })
+
             }
         </div>
     )

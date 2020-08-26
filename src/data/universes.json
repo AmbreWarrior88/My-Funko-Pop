@@ -1,46 +1,46 @@
 [
-    {
-        "title": "The Lord Of The Ring",
-        "img": "/img/funkoTheLordOfTheRing.jpg"
-    },
-    {
-        "title": "Harry Potter",
-        "img": "/img/funkoHarryPotter.jpg"
-    },
-    {
-        "title": "Disney",
-        "img": "/img/funkoDisney.jpg"
-    },
-    {
-        "title": "Back To The Futur",
-        "img": "/img/funkoBackToTheFutur.png"
-    },
-    {
-        "title": "Game Of Thrones",
-        "img": "/img/funkoGameOfThrones.jpg"
-    },
-    {
-        "title": "The Witcher",
-        "img": "/img/funkoTheWitcher.png"
-    },
-    {
-        "title": "Dragon Ball",
-        "img": "/img/funkoDragonBall.jpg"
-    },
-    {
-        "title": "DC Comics",
-        "img": "/img/funkoDC.png"
-    },
-    {
-        "title": "Marvel",
-        "img": "/img/funkoMarvel.png"
-    },
-    {
-        "title": "How To Train Your Dragon",
-        "img": "/img/funkoHowToTrainYourDragon.png"
-    },
-    {
-        "title": "Other",
-        "img": "/img/funkoOther.jpeg"
-    }
+  {
+    "title": "The Lord Of The Ring",
+    "img": "/img/funkoTheLordOfTheRing.jpg"
+  },
+  {
+    "title": "Harry Potter",
+    "img": "/img/funkoHarryPotter.jpg"
+  },
+  {
+    "title": "Disney",
+    "img": "/img/funkoDisney.jpg"
+  },
+  {
+    "title": "Back To The Future",
+    "img": "/img/funkoBackToTheFutur.png"
+  },
+  {
+    "title": "Game Of Thrones",
+    "img": "/img/funkoGameOfThrones.jpg"
+  },
+  {
+    "title": "The Witcher",
+    "img": "/img/funkoTheWitcher.png"
+  },
+  {
+    "title": "Dragon Ball",
+    "img": "/img/funkoDragonBall.jpg"
+  },
+  {
+    "title": "DC Comics",
+    "img": "/img/funkoDC.png"
+  },
+  {
+    "title": "Marvel",
+    "img": "/img/funkoMarvel.png"
+  },
+  {
+    "title": "How To Train Your Dragon",
+    "img": "/img/funkoHowToTrainYourDragon.png"
+  },
+  {
+    "title": "Other",
+    "img": "/img/funkoOther.jpeg"
+  }
 ]

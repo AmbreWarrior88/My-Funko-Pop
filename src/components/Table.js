@@ -61,7 +61,7 @@ const SimpleTable = () => {
                 </TableHead>
                 <TableBody>
                     {rows.map((row) => (
-                        <StyledTableRow key={row.universe}>
+                        <StyledTableRow key={row.name}>
                             <StyledTableCell component="th" scope="row">
                                 {row.universe}
                             </StyledTableCell>
