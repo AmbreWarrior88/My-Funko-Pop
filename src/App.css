@@ -1,5 +1,10 @@
-/* GLOBAL */
+/* RESET */
 
-Link {
-  text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.pink {
+  color: #fc00fd;
 }

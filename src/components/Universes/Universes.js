@@ -8,7 +8,6 @@ import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-/* import universes from "../../data/universes.json"; */
 import '../Universes/style.css';
 import axios from "axios";
 
@@ -32,7 +31,6 @@ const Universes = () => {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios.get("http://localhost:4000/universes");
-            console.log(response.data);
             setUniversesList(response.data);
         }
         fetchData();
@@ -44,6 +42,7 @@ const Universes = () => {
         >
             {universesList.map((e) => (
                 <Card
+                    key={e._id}
                     className={classes.root}
                 >
                     <Link

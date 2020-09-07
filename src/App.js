@@ -6,12 +6,16 @@ import Footer from "./containers/Footer";
 import HomePage from "./containers/HomePage";
 import FunkosList from "./components/FunkosList";
 import Container from "@material-ui/core/Container";
+import TestPage from "./containers/Test/test"
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Container maxWidth="80%">
+      <Route path="/test">
+        <TestPage />
+      </Route>
+      {/* <Header /> */}
+      <Container maxWidth="md">
         <Switch>
           <Route exact path="/">
             <HomePage />
@@ -19,6 +23,7 @@ function App() {
           <Route path="/universe/:universeId">
             <FunkosList />
           </Route>
+
         </Switch>
       </Container>
       <Footer />
