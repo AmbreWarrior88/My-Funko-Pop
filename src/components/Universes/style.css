@@ -1,9 +1,53 @@
 /* UNIVERSES */
 
-.cards {
+/* .cards {
   display: flex;
   flex-direction: column;
   flex-flow: wrap;
   justify-content: center;
-  /* margin: 20px; */
+  margin: 20px;
+} */
+
+.universes {
+  /* display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 20px; */
+  display: flex;
+  overflow-x: scroll;
+}
+.universe {
+  margin: 30px 10px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.universe > img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  object-fit: cover;
+  object-position: center;
+  /* width: 100%; */
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid #fc00fd;
+}
+
+.universe > img:hover {
+  transform: scale(1.02);
+}
+
+.universe > p {
+  position: absolute;
+  text-shadow: #fc00fd 1px 0 10px;
+  color: white;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+  color: #fc00fd;
+  border: 2px solid #fc00fd;
+  border-radius: 50%;
 }

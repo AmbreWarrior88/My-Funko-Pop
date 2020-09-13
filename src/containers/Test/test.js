@@ -5,8 +5,9 @@ import '../Test/test.css'
 
 const TestPage = () => {
 
-    return (<>
-    <div className='header-test'>
+    return (
+    <div style={{backgroundColor:'aliceblue'}}>
+    <header className='header-test'>
         <h1>Funko POP Collection !</h1>
         <section className='nav-bar'>
         <div className='input-search'>
@@ -25,7 +26,7 @@ const TestPage = () => {
             </Link>
             </div>
         </section>
-    </div>
+    </header>
     <div style={{overflow:'hidden'}}>
         <img src='/img/wallpaper/header_background.png' alt='' className='img-collection' style={{maxWidth:'100%'}}/>
     </div>
@@ -51,10 +52,7 @@ const TestPage = () => {
             <p>La Casa De Papel</p>
         </div>
     </div>
-    <div style={{backgroundColor:'aliceblue', height:'500px'}}>
-
-    </div>
-</>)
+</div>)
 };
 
 export default TestPage;

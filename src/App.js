@@ -7,15 +7,14 @@ import HomePage from "./containers/HomePage";
 import FunkosList from "./components/FunkosList";
 import Container from "@material-ui/core/Container";
 import TestPage from "./containers/Test/test"
+import SimpleTable from "./components/Table";
 
 function App() {
   return (
+    <div style={{backgroundColor:'aliceblue'}}>
     <Router>
-      <Route path="/test">
-        <TestPage />
-      </Route>
-      {/* <Header /> */}
-      <Container maxWidth="md">
+      <Header />
+      <Container maxWidth="md" >
         <Switch>
           <Route exact path="/">
             <HomePage />
@@ -23,11 +22,14 @@ function App() {
           <Route path="/universe/:universeId">
             <FunkosList />
           </Route>
-
+          <Route path="/collection">
+            <SimpleTable/>
+          </Route>
         </Switch>
       </Container>
       <Footer />
     </Router>
+    </div>
   );
 }
 

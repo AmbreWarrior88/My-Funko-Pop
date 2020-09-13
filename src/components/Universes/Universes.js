@@ -2,30 +2,12 @@ import React, { useEffect, useState } from "react";
 import {
     Link
 } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActionArea from "@material-ui/core/CardActionArea";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
+import Tabs from '@material-ui/core/Tabs';
 import '../Universes/style.css';
 import axios from "axios";
 
-const useStyles = makeStyles({
-    root: {
-        maxWidth: 345,
-        width: '100%',
-        margin: '20px',
-        border: '1px solid #fc00fd'
-    },
-    media: {
-        height: 140,
-    },
-});
-
 const Universes = () => {
-    const classes = useStyles();
-
+    
     const [universesList, setUniversesList] = useState([]);
 
     useEffect(() => {
@@ -38,37 +20,23 @@ const Universes = () => {
 
     return (
         <div
-            className='cards'
+        className='universes'
         >
-            {universesList.map((e) => (
-                <Card
-                    key={e._id}
-                    className={classes.root}
-                >
-                    <Link
+            <Tabs variant="scrollable"
+          scrollButtons="auto">
+                 {universesList.map((e) => (
+                <Link
                         to={`/universe/${e._id}`}
                         style={{ textDecoration: "none" }}
                     >
-                        <CardActionArea>
-                            <CardMedia
-                                className={classes.media}
-                                image={`/img/${e.img}`}
-                                title="Wallpaper"
-                            />
-                            <CardContent>
-                                <Typography
-                                    gutterBottom
-                                    variant="h5"
-                                    component="h2"
-                                    style={{ color: "#fc00fd" }}
-                                >
-                                    {e.title}
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                    </Link>
-                </Card>
+                <div className='universe'>
+                    <img src={`/img/${e.img}`} alt={e.title}/>
+                    <p>{e.title}</p>
+                </div>
+                </Link>
             ))}
+            </Tabs>
+           
         </div>
     );
 };

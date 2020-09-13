@@ -65,7 +65,7 @@ const FunkosList = () => {
                                 {`${e.newPrice} €`}
                             </Avatar>
                         </ListItem>
-                        <Divider variant="inset" component="li" />
+                        
                     </List>
                 })
 

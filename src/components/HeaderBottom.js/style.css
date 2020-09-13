@@ -1,0 +1,8 @@
+.img-collection {
+  vertical-align: middle;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.img-collection:hover {
+  transform: scale(1.02);
+}

@@ -2,102 +2,87 @@ import React, { useState } from "react";
 import {
     Link
 } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
-import BottomNavigation from "@material-ui/core/BottomNavigation";
-import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import FolderIcon from "@material-ui/icons/Folder";
-import TextField from "@material-ui/core/TextField";
+import { fade, makeStyles } from "@material-ui/core/styles";
+import SearchIcon from '@material-ui/icons/Search';
+import InputBase from '@material-ui/core/InputBase';
 import "../Header/style.css";
 
 const useStyles = makeStyles((theme) => ({
-    bottomNavigationRoot: {
-        width: 500,
-        backgroundColor: "transparent",
-    },
-    textFieldRoot: {
-        "& > *": {
-            /* margin: theme.spacing(1), */
-            margin: "50px auto auto auto",
-            width: "400px",
-            backgroundColor: "rgba(0,0,0,0.5)",
+    search: {
+        position: 'relative',
+        borderRadius: theme.shape.borderRadius,
+        border: '1px solid #fc00fd',
+        backgroundColor: 'aliceblue',
+        '&:hover': {
+          backgroundColor: 'white',
         },
-    },
-    cssOutlinedInput: {
-        color: "#fc00fd",
-    },
-    notchedOutline: {
-        borderWidth: "2px",
-        borderColor: "#fc00fd !important",
-        color: "#fc00fd",
-    },
-    label: {
-        color: "#fc00fd !important",
+        marginRight: theme.spacing(2),
+        marginLeft: 0,
+        width: '100%',
+        [theme.breakpoints.up('sm')]: {
+          marginLeft: theme.spacing(3),
+          width: 'auto',
+        },
+      },
+    searchIcon: {
+        color: '#fc00fd',
+        padding: theme.spacing(0, 2),
+        height: '100%',
+        position: 'absolute',
+        pointerEvents: 'none',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+      inputRoot: {
+        color: 'inherit',
+      },
+      inputInput: {
+        padding: theme.spacing(1, 1, 1, 0),
+        // vertical padding + font size from searchIcon
+        paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
+        transition: theme.transitions.create('width'),
+        width: '100%',
+        [theme.breakpoints.up('md')]: {
+          width: '20ch',
+        },
     },
 }));
 
 const Header = () => {
     const classes = useStyles();
-    const [value, setValue] = useState("category");
 
     return (
-        <div className="header">
-            <div className="gradient">
-                <div className="title">
+        <header className="header">
                     <Link to="/" style={{ textDecoration: "none" }}>
-                        <h1>Funko Pop Collection</h1>
+                        <h1>Funko POP Collection !</h1>
                     </Link>
-
-                    <BottomNavigation
-                        value={value}
-                        onChange={(event, newValue) => {
-                            setValue(newValue);
-                        }}
-                        showLabels
-                        className={classes.bottomNavigationRoot}
-                        style={{ justifyContent: "flex-end" }}
-                    >
-                        <BottomNavigationAction
-                            label="Category"
-                            value="category"
-                            icon={<FolderIcon />}
-                        />
-                        <BottomNavigationAction
-                            label="Collection"
-                            value="collection"
-                            icon={<FavoriteIcon />}
-                        />
-                    </BottomNavigation>
-                </div>
-                <form
-                    className={classes.textFieldRoot}
-                    noValidate
-                    autoComplete="off"
-                    style={{ display: "flex", justifyContent: "start" }}
-                >
-                    <TextField
-                        id="outlined-basic"
-                        label="Search"
-                        variant="outlined"
-                        InputProps={{
-                            classes: {
-                                root: classes.cssOutlinedInput,
-                                notchedOutline: classes.notchedOutline,
-                                focused: classes.cssFocused,
-                            },
-                            inputMode: "numeric",
-                        }}
-                        InputLabelProps={{
-                            classes: {
-                                root: classes.label,
-                                /* focused: classes.focusedLabel,
-                              error: classes.erroredLabel, */
-                            },
-                        }}
-                    />
-                </form>
+                    <section className='nav-bar'>
+                    <div className={classes.search}>
+                      <div className={classes.searchIcon}>
+                        <SearchIcon />
+                      </div>
+                        <InputBase placeholder="Search…"
+                       classes={{
+                      root: classes.inputRoot,
+                      input: classes.inputInput,
+                         }}
+                     inputProps={{ 'aria-label': 'search' }}/>
+                   </div>
+                <div className='link'>
+            <Link >
+            Univers
+            </Link>
+            <Link to="/collection">
+            Collection
+            </Link>
+            <Link >
+            Favoris
+            </Link>
             </div>
-        </div>
+                    </section>
+                
+        </header>
     );
 };
 
