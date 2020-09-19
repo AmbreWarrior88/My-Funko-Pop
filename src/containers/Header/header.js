@@ -70,13 +70,13 @@ const Header = () => {
                      inputProps={{ 'aria-label': 'search' }}/>
                    </div>
                 <div className='link'>
-            <Link >
+            <Link to="/universes" >
             Univers
             </Link>
             <Link to="/collection">
             Collection
             </Link>
-            <Link >
+            <Link to="/favorite">
             Favoris
             </Link>
             </div>

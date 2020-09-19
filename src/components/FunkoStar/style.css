@@ -1,0 +1,28 @@
+/* FUNKO STAR */
+
+.star-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star > img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #fc00fd;
+}
+
+.price {
+  display: flex;
+}
+
+.price > p {
+  margin: 5px;
+}

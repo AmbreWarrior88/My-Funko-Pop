@@ -8,6 +8,8 @@ import FunkosList from "./components/FunkosList";
 import Container from "@material-ui/core/Container";
 import TestPage from "./containers/Test/test"
 import SimpleTable from "./components/Table";
+import { UniversesPage } from "./components/Universes/Universes";
+import Favorite from "./components/Favorite";
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
           </Route>
           <Route path="/collection">
             <SimpleTable/>
+          </Route>
+          <Route path="/universes">
+            <UniversesPage/>
+          </Route>
+          <Route path="/favorite">
+            <Favorite/>
           </Route>
         </Switch>
       </Container>

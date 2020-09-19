@@ -6,10 +6,9 @@ import Tabs from '@material-ui/core/Tabs';
 import '../Universes/style.css';
 import axios from "axios";
 
-const Universes = () => {
-    
+export const Universes = () => {
     const [universesList, setUniversesList] = useState([]);
-
+    
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios.get("http://localhost:4000/universes");
@@ -17,17 +16,15 @@ const Universes = () => {
         }
         fetchData();
     }, []);
+    
 
     return (
-        <div
-        className='universes'
-        >
-            <Tabs variant="scrollable"
-          scrollButtons="auto">
+        <>
                  {universesList.map((e) => (
                 <Link
                         to={`/universe/${e._id}`}
                         style={{ textDecoration: "none" }}
+                        key={e.name}
                     >
                 <div className='universe'>
                     <img src={`/img/${e.img}`} alt={e.title}/>
@@ -35,10 +32,28 @@ const Universes = () => {
                 </div>
                 </Link>
             ))}
-            </Tabs>
-           
-        </div>
+           </>
     );
 };
 
-export default Universes;
+export const UniversesPage =()=>(
+
+          <div style={{display:'flex', flexFlow:'wrap',justifyContent:'center', margin:'20px'}}>
+          <Universes/>
+         </div>
+)
+
+const UniversesHome =()=>(
+        <div
+        className='universes'
+        >
+            <Tabs variant="scrollable"
+          scrollButtons="auto">
+             <Universes/>
+          </Tabs>
+           </div>
+
+    )
+
+
+export default UniversesHome;
