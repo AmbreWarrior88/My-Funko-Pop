@@ -1,20 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import {
-    useParams, useHistory
+    useParams
 } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Button from '@material-ui/core/Button';
-import Checkbox from '@material-ui/core/Checkbox';
 import Avatar from '@material-ui/core/Avatar';
-import Favorite from '@material-ui/icons/Favorite';
-import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import axios from "axios";
+import ButtonBack from './ButtonBack';
+import FavoriteIcon from './FavoriteIcon';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -34,13 +30,6 @@ const useStyles = makeStyles((theme) => ({
         height: theme.spacing(10),
         backgroundColor: 'green',
     },
-    button:{
-        backgroundColor: '#fc00fd',
-        marginBottom: '20px',
-        '&:hover': {
-            filter: 'grayscale(20%)',
-    }
-}
 }));
 
 
@@ -48,7 +37,6 @@ const FunkosList = () => {
 
     const classes = useStyles();
     const { universeId } = useParams();
-    const history = useHistory()
 
     const [funkosList, setFunkosList] = useState([]);
    
@@ -75,9 +63,7 @@ const FunkosList = () => {
                             </ListItemAvatar>
                             <ListItemText primary={`${e.name} - ${e.edition}`}
                                 secondary={`Date d'achat : ${e.buy} - Prix d'achat : ${e.price} €`} />
-                                <FormControlLabel
-        control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} name="favorite" />}
-      />
+                                <FavoriteIcon/>
                             <Avatar className={classes.priceAvatar}>
                                 {`${e.newPrice} €`}
                             </Avatar>
@@ -86,9 +72,7 @@ const FunkosList = () => {
                 })
 
             }
-            <Button className={classes.button} variant="contained" color="secondary" startIcon={<ArrowBackIcon/>} onClick={()=> history.push('/')}>
-        Back
-      </Button>
+           <ButtonBack history={'/universes'} />
         </div>
     )
 }

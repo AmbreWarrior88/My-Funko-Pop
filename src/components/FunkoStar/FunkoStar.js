@@ -1,44 +1,41 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../FunkoStar/style.css';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
-import Favorite from '@material-ui/icons/Favorite';
-import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+
+import Axios from 'axios';
+import FavoriteIcon from '../FavoriteIcon';
 
 const FunkoStar =()=>{
 
-    const [favorite, setFavorite] = useState([]);
+    const [funkoStar, setFunkoStar] = useState([]);
+    const display = funkoStar.slice(1,3);
 
-console.log(favorite);
+useEffect(()=>{
+    const fetchData = async () => {
+        const response = await Axios.get("http://localhost:4000/favorite");
+        setFunkoStar(response.data);
+    }
+    fetchData();
+},[]);
+
     return(
     <>
 <h2>Les meilleures côtes</h2>
 <div className="star-section">
-    <div className="star">
-        <img src="img/funko/theWitcher/ciri.png" alt=""/>
+    {display.map(e=>(
+<div className="star">
+        <img src={`/img/funko/${e.img}`} alt={e.universe}/>
         <div>
-           <h3>Ciri</h3>
-    <FormControlLabel
-        control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} name="favorite" />}
-        onClick={()=> setFavorite({title:'ciri', img: 'img ciri'})}
-      /> 
+           <h3>{e.name}</h3>
+           <FavoriteIcon/>
         </div>
-    
-    <p>Edition</p>
+    <p>{e.edition}</p>
     <div className="price">
-        <p>P.A.</p>
-        <p>Côte</p>
+        <p>{e.price}</p>
+        <p>{e.newPrice}</p>
     </div>
     </div>
-    <div className="star">
-        <img src="img/funko/disney/samovar.png" alt=""/>
-    <h3>Mme Samovar & chip</h3>
-    <p>Edition</p>
-    <div className="price"> 
-        <p>P.A.</p>
-        <p>Côte</p>
-    </div>
-    </div>
+    )) 
+    }
 </div>
 </>
 )

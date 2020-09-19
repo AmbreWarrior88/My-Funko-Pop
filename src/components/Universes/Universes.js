@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import {
-    Link
+    Link, useHistory
 } from "react-router-dom";
 import Tabs from '@material-ui/core/Tabs';
 import '../Universes/style.css';
 import axios from "axios";
+import ButtonBack from "../ButtonBack";
 
 export const Universes = () => {
     const [universesList, setUniversesList] = useState([]);
@@ -36,12 +37,19 @@ export const Universes = () => {
     );
 };
 
-export const UniversesPage =()=>(
+export const UniversesPage =()=>{
 
-          <div style={{display:'flex', flexFlow:'wrap',justifyContent:'center', margin:'20px'}}>
-          <Universes/>
-         </div>
-)
+    return(
+    <div>
+              <div style={{display:'flex', flexFlow:'wrap',justifyContent:'center', margin:'20px'}}>
+              <Universes/>
+             </div>
+             <div style={{marginLeft: '44%'}}>
+             <ButtonBack history={'/'}/>
+             </div>
+           </div>
+    )
+}
 
 const UniversesHome =()=>(
         <div

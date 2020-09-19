@@ -10,9 +10,9 @@
   position: sticky;
   top: 0px;
   z-index: 1;
-  background-color: aliceblue;
+  background-color: black;
   height: 90px;
-  opacity: 0.9;
+  margin-bottom: 30px;
 }
 
 .nav-bar {

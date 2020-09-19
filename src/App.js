@@ -13,7 +13,7 @@ import Favorite from "./components/Favorite";
 
 function App() {
   return (
-    <div style={{backgroundColor:'aliceblue'}}>
+    <div>
     <Router>
       <Header />
       <Container maxWidth="md" >
