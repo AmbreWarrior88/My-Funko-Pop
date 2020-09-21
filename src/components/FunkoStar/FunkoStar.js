@@ -26,7 +26,7 @@ useEffect(()=>{
         <img src={`/img/funko/${e.img}`} alt={e.universe}/>
         <div>
            <h3>{e.name}</h3>
-           <FavoriteIcon/>
+           <FavoriteIcon name={e.name}/>
         </div>
     <p>{e.edition}</p>
     <div className="price">

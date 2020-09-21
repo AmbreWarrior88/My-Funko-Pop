@@ -1,7 +1,10 @@
 import React from 'react';
 
 const Favorite =()=>(
-    <h2>Favoris</h2>
+    <div>
+        <h2>Favoris</h2>
+    </div>
+    
 )
 
 export default Favorite;
