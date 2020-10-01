@@ -2,7 +2,7 @@ const initialState={
     allFavorites:[],
 };
 
-export default (state = initialState, action ={}) =>{
+const favorites = (state = initialState, action ={}) =>{
     switch (action.type) {
         case 'ADD_FAVORITE':
             return {
@@ -18,3 +18,5 @@ export default (state = initialState, action ={}) =>{
             return state;
     }
 };
+
+export default favorites;

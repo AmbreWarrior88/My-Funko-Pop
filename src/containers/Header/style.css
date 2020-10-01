@@ -10,9 +10,8 @@
   position: sticky;
   top: 0px;
   z-index: 1;
-  background-color: black;
+  background-color: #222222;
   height: 90px;
-  margin-bottom: 30px;
 }
 
 .nav-bar {

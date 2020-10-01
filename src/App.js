@@ -13,10 +13,10 @@ import Favorite from "./components/Favorite";
 
 function App() {
   return (
-    <div>
+    <div style={{margin:'-8px'}}>
     <Router>
       <Header />
-      <Container maxWidth="md" >
+      <Container maxWidth="false" >
         <Switch>
           <Route exact path="/">
             <HomePage />

@@ -7,7 +7,7 @@ import FavoriteIcon from '../FavoriteIcon';
 const FunkoStar =()=>{
 
     const [funkoStar, setFunkoStar] = useState([]);
-    const display = funkoStar.slice(1,3);
+    const display = funkoStar.slice(1,4);
 
 useEffect(()=>{
     const fetchData = async () => {
