@@ -7,9 +7,9 @@ const FavoriteIcon = (props) =>{
     const [favorite, setFavorite] = useState([]);
     const [favoriteIcon, setFavoriteIcon] = useState(false);
 
-    useEffect(()=>{
-console.log(favorite, favoriteIcon);
-    },[favorite, favoriteIcon]);
+//     useEffect(()=>{
+// console.log(favorite, favoriteIcon);
+//     },[favorite, favoriteIcon]);
     
 
     return(

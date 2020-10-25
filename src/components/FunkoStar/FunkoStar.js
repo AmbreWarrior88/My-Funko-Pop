@@ -21,8 +21,8 @@ useEffect(()=>{
 },[]);
 
     return(
-    <div style={{backgroundColor:'#974843',paddingTop:'20px'}}>
-<h2 style={{padding: '20px'}}>Certaines Funko sont exclusives</h2>
+    <div style={{backgroundColor:'#974843', padding:'20px 60px 1px 60px'}}>
+<h2 style={{marginLeft:'-20px'}}>Certaines Funko sont exclusives</h2>
 
     {display.map(e=>(
         <Link to={'/universe/5f469aff24ce95607d5a7ce2'} className='card'>
