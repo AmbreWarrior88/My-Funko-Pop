@@ -1,0 +1,41 @@
+/* UNIVERSE STAR */
+
+.card {
+  display: flex;
+  margin: 40px 40px 70px 40px;
+}
+
+.img {
+  width: 33%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.left-text-card {
+  margin-left: 20px;
+}
+
+.right-text-card {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 33%;
+}
+
+.title {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.description {
+  color: white;
+}
+
+.link-universe {
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: 6px;
+  display: inline;
+}

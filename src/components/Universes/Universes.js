@@ -52,6 +52,8 @@ export const UniversesPage =()=>{
 }
 
 const UniversesHome =()=>(
+    <>
+    <h2 style={{padding: '20px'}}>Tous les univers</h2>
         <div
         className='universes'
         >
@@ -60,6 +62,7 @@ const UniversesHome =()=>(
              <Universes/>
           </Tabs>
            </div>
+           </>
 
     )
 

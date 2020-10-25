@@ -10,7 +10,6 @@
   position: sticky;
   top: 0px;
   z-index: 1;
-  background-color: #222222;
   height: 90px;
 }
 
@@ -40,16 +39,16 @@
 h1 {
   /* color: #fc00fd; */
   margin: 40px;
-  text-shadow: #fc00fd 1px 0 10px;
+  /* text-shadow: #fc00fd 1px 0 10px; */
   color: white;
 }
 
 .MuiBottomNavigationAction-wrapper {
-  color: #fc00fd;
+  /* color: #fc00fd; */
 }
 
 .link {
-  text-shadow: #fc00fd 1px 0 10px;
+  /* text-shadow: #fc00fd 1px 0 10px; */
   color: white;
 }
 

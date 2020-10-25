@@ -33,7 +33,7 @@
   width: 200px;
   height: 200px;
   border-radius: 10px;
-  border: 2px solid #fc00fd;
+  border: 2px solid white;
 }
 
 .universe > img:hover {
@@ -42,12 +42,11 @@
 
 .universe > p {
   position: absolute;
-  text-shadow: #fc00fd 1px 0 10px;
   color: white;
 }
 
 .MuiSvgIcon-fontSizeSmall {
-  color: #fc00fd;
-  border: 2px solid #fc00fd;
+  color: white;
+  border: 2px solid white;
   border-radius: 50%;
 }

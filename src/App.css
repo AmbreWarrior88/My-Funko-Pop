@@ -3,16 +3,19 @@
 a {
   color: inherit;
   text-decoration: inherit;
-  font-family: "luckiest guy", sans-serif;
+  /* font-family: "luckiest guy", sans-serif; */
 }
 
 .pink {
   color: #fc00fd;
 }
 
-h1,
-h2,
-h3,
-p {
+h1 {
   font-family: "luckiest guy", sans-serif;
+  color: white;
+}
+
+h2,
+h3 {
+  color: white;
 }

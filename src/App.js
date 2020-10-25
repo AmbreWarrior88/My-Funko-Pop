@@ -13,10 +13,9 @@ import Favorite from "./components/Favorite";
 
 function App() {
   return (
-    <div style={{margin:'-8px'}}>
+    <div style={{margin:'-8px', backgroundColor: 'black'}}>
     <Router>
       <Header />
-      <Container maxWidth="false" >
         <Switch>
           <Route exact path="/">
             <HomePage />
@@ -34,7 +33,6 @@ function App() {
             <Favorite/>
           </Route>
         </Switch>
-      </Container>
       <Footer />
     </Router>
     </div>

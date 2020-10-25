@@ -8,7 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     button:{
-        backgroundColor: '#fc00fd',
+        backgroundColor: 'white',
         marginBottom: '20px',
         '&:hover': {
             filter: 'grayscale(20%)',
@@ -20,7 +20,7 @@ const ButtonBack = (props) =>{
     const classes = useStyles();
     const history= useHistory()
     return(
-    <Button className={classes.button} variant="contained" color="secondary" startIcon={<ArrowBackIcon/>} onClick={()=> history.push(props.history)}>
+    <Button className={classes.button} variant="contained" startIcon={<ArrowBackIcon/>} onClick={()=> history.push(props.history)}>
         Back
       </Button>
 )

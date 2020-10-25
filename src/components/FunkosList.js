@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.paper,
         margin: 30,
         borderRadius: '10px',
-        border: '2px solid #fc00fd',
     },
     numberAvatar: {
         width: theme.spacing(6),

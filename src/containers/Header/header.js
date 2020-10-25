@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
     search: {
         position: 'relative',
         borderRadius: theme.shape.borderRadius,
-        border: '1px solid #fc00fd',
         backgroundColor: 'aliceblue',
         '&:hover': {
           backgroundColor: 'white',
@@ -25,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
         },
       },
     searchIcon: {
-        color: '#fc00fd',
+        color: 'black',
         padding: theme.spacing(0, 2),
         height: '100%',
         position: 'absolute',
@@ -53,7 +52,8 @@ const Header = () => {
     const classes = useStyles();
 
     return (
-        <header className="header">
+        <header style={{borderBottom:'1px solid white', marginBottom:'8px'}}>
+            <div className="header">
                     <Link to="/" style={{ textDecoration: "none" }}>
                         <h1>Funko POP Collection !</h1>
                     </Link>
@@ -81,7 +81,7 @@ const Header = () => {
             </Link>
             </div>
                     </section>
-                
+                    </div>  
         </header>
     );
 };
